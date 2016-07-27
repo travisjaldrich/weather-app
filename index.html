@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1 id="title">Current Weather</h1>
+    <h1>Current Weather</h1>
     <div id="bg" class="container-fluid">
       <div id="location"></div>
       <div id="icon"></div>
       <div id="temp"></div>
       <div id="desc"></div>
-      <button type="button" id="units">&deg C / &deg F</button>
+      <div id="celFah">
+        <button type="button" id="units" class="btn btn-default">&deg C / &deg F</button>
+      </div>
     </div>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script src="js/index.js"></script>

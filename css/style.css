@@ -1,0 +1,44 @@
+body {
+	font-family: 'Iceland', sans-serif;
+	color: green;
+	background-color: #001a33;
+	text-align: center;
+}
+
+#bg {
+	background-color: black;
+	margin: auto;
+	width: 40%;
+	border: solid 10px gray;
+	border-radius: 10px;
+	padding: 0;
+}
+
+#location {
+	font-size: 2em;
+}
+
+#icon {
+	padding-top: 10px;
+}
+
+#temp {
+	color: yellow;
+	font-size: 4em;
+}
+
+#desc {
+	font-size: 1.5em;
+	padding-bottom: 15px;
+}
+
+#celFah {
+	background-color: gray;
+	padding: 8px 0 0 0;
+}
+
+#units {
+	border-radius: 10px;
+	font-family: sans-serif;
+	color: #001a33;
+}
